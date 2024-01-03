@@ -12,7 +12,7 @@ best_model = joblib.load('lreg_bbry_tuned_model.pkl')
 rf_final = joblib.load('rf_bbry_tuned_model.pkl')
 fs_rf = joblib.load('rf_fs_object.joblib')
 
-# Define Streamlit app
+# Define Streamlit aapp
 def main():
     st.title("Machine Learning Model Deployment with Streamlit")
 
